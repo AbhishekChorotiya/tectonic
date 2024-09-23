@@ -45,7 +45,7 @@ const EmblaCarousel = (props) => {
                 {product?.story[currProduct]?.type === "video" && (
                   <div className="w-full h-full relative flex">
                     <ReactPlayer
-                      url={"https://www.youtube.com/shorts/8O3JsQkz-oc"}
+                      url={product?.story[currProduct]?.src}
                       muted={isMuted}
                       playing={true}
                       width="100%"
