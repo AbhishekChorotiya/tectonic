@@ -11,9 +11,8 @@ export const Slides = [
       },
       {
         id: 2,
-        type: "video",
-        src: "https://www.youtube.com/shorts/zLPs0EoMPZU",
-        length: "10s",
+        type: "image",
+        src: "https://picsum.photos/id/238/400/600",
       },
       {
         id: 3,
@@ -34,8 +33,9 @@ export const Slides = [
       },
       {
         id: 2,
-        type: "image",
-        src: "https://picsum.photos/id/241/400/600",
+        type: "video",
+        src: "https://www.youtube.com/shorts/zLPs0EoMPZU",
+        length: "10s",
       },
     ],
   },
