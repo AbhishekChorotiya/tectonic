@@ -77,17 +77,17 @@ function App() {
           <SideIcon title="" icon={<Bookmark className="w-8 h-8" />} />
           <SideIcon title="" icon={<Upload className="w-8 h-8" />} />
         </div>
-        <div
+        <button
           onClick={() => {
             window.open(Slides[currStory].story[currProduct].src, "_blank");
           }}
           className="absolute top-10 right-5 flex items-center justify-center p-3 w-12 h-12 bg-white/60 rounded-full"
         >
           <ShoppingBag className="w-8 h-8" />
-        </div>
-        <div className="absolute top-10 left-5 flex items-center justify-center p-3 w-12 h-12 bg-white/60 rounded-full">
+        </button>
+        <button className="absolute top-10 left-5 flex items-center justify-center p-3 w-12 h-12 bg-white/60 rounded-full">
           <X className="w-8 h-8" />
-        </div>
+        </button>
       </div>
     </div>
   );
