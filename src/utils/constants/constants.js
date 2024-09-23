@@ -3,7 +3,6 @@ export const Slides = [
     id: 1,
     name: "Slide 1",
     price: 100,
-    color: "red",
     story: [
       {
         id: 1,
@@ -26,7 +25,6 @@ export const Slides = [
     id: 2,
     name: "Slide 2",
     price: 200,
-    color: "blue",
     story: [
       {
         id: 1,
@@ -44,7 +42,6 @@ export const Slides = [
     id: 3,
     name: "Slide 3",
     price: 300,
-    color: "green",
     story: [
       {
         id: 1,
@@ -73,7 +70,6 @@ export const Slides = [
     id: 4,
     name: "Slide 4",
     price: 400,
-    color: "orange",
     story: [
       {
         id: 1,
