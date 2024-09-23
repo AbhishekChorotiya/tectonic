@@ -37,7 +37,7 @@ function App() {
   }, [currProduct]);
 
   return (
-    <div className="w-screen  h-screen flex items-center justify-center">
+    <div className="w-screen  h-dvh flex items-center justify-center">
       <div className="lg:w-96 w-full h-full flex relative lg:h-[600px] overflow-hidden bg-red-300">
         <div className="absolute top-0 left-0 w-full h-full bg-black">
           <EmblaCarousel
